@@ -4,7 +4,7 @@ A comprehensive web-based interface for managing, analyzing, and exporting custo
 
 ## Screenshot
 
-![Advanced Conversations Interface](images/app-screenshot.png)
+![Advanced Conversations Interface](images/adv_conversation.png)
 *The Advanced Conversations interface showing conversation records, analytics, and management features*
 
 ## Overview
