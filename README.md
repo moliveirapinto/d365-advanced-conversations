@@ -2,6 +2,11 @@
 
 A comprehensive web-based interface for managing, analyzing, and exporting customer service conversations from Microsoft Dynamics 365 Customer Service / Omnichannel for Customer Service.
 
+## Screenshot
+
+![Advanced Conversations Interface](images/app-screenshot.png)
+*The Advanced Conversations interface showing conversation records, analytics, and management features*
+
 ## Overview
 
 Advanced Conversations is a powerful HTML application that integrates with Dynamics 365 to provide enhanced conversation management capabilities. It offers a modern, intuitive interface for customer service teams to view, filter, assign, and analyze customer interactions across multiple communication channels.
