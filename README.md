@@ -30,8 +30,8 @@ Advanced Conversations is a powerful HTML application that integrates with Dynam
 ### 📥 Export & Download
 - **Multiple Export Formats**:
   - JSON: Structured data export for integration
-  - Single TXT: All transcripts in one consolidated file
-  - Multiple TXT: Individual transcript files in a ZIP archive
+  - Single Text File: All transcripts in one consolidated file
+  - Multiple Text Files: Individual transcript files in a ZIP archive
 - **Transcript Download**: Export full conversation transcripts including:
   - Messages and responses
   - Timestamps
@@ -123,10 +123,13 @@ Works with Microsoft Dynamics 365 Customer Service entities including:
 
 ## Getting Started
 
-1. **Deploy to Dynamics 365**: Host the HTML file in your Dynamics 365 environment
+1. **Deploy to Dynamics 365**: 
+   - Upload the HTML file as a Web Resource in your Dynamics 365 environment
+   - Alternatively, host on a web server accessible to your Dynamics 365 instance
+   - Ensure the page is embedded in an iframe context where Xrm context is available
 2. **Configure Access**: Ensure users have appropriate security roles for conversation entities
 3. **Open the Application**: Access through Dynamics 365 or as a standalone page
-4. **Set Permissions**: Grant read/write access to relevant Omnichannel entities
+4. **Set Permissions**: Grant read/write access to relevant Omnichannel entities (msdyn_ocliveworkitem, msdyn_transcript, etc.)
 
 ## Requirements
 
